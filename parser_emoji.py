@@ -59,3 +59,18 @@ def get_list():
 
     return allemojies
 
+@eel.expose
+def get_app_list():
+    file = open('emojies.json', encoding='utf-8')
+    emojies = json.load(file)
+
+    return emojies
+
+
+
+@eel.expose
+def save_emojies(emojies):
+    with open('emojies.json', 'w', encoding='utf-8') as json_file:
+        json_file.write(emojies)
+
+

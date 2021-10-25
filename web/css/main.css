@@ -153,17 +153,27 @@ body {
 
 .window__save__btn-copy,
 .window__save__btn-cancel {
-    width: 160px;
-    height: 58px;
-    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 10px;
     background-color: #ffe072;
 
     cursor: pointer;
     text-align: center;
-    line-height: 58px;
     font-weight: bold;
     transition: 0.2s;
     user-select: none;
+}
+
+.window__save__btn-cancel em,
+.window__save__btn-copy em {
+    margin-left: 12px;
+}
+
+.window__save__btn-copy {
+    margin-right: 16px;
 }
 
 .overlay__save__title {

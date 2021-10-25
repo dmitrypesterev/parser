@@ -1,5 +1,5 @@
 const VueApp = new Vue({
-    el: "#app",
+   el: "#app",
 	data: {
         list: [],
         newEmojies: [],
@@ -133,50 +133,67 @@ const VueApp = new Vue({
 			this.list = await eel.get_list()();
 		},
 
-        addEmoji (index) {
-            this.newEmojies.push(this.list[index]);
-            setTimeout(function () {
-                document.querySelector(".list2").scrollTop = document.querySelector(".list2").scrollHeight;
-            }, 10);
-        },
+      async get_app_list () {
+         this.newEmojies = await eel.get_app_list()();
+         console.log(this.newEmojies)
+      },
 
-        removeEmoji (index) {
-            this.newEmojies.splice(index,1);      
-        },
-        
-        saveEmojies () {
-            let emojiesString = JSON.stringify(this.newEmojies, null,'\t');
-            localStorage.setItem('emojies', emojiesString);
+      addEmoji (index) {
+         this.newEmojies.push(this.list[index]);
+         localStorage.setItem('emojies', JSON.stringify(this.newEmojies));
 
-            this.emojiContainer = emojiesString.trim();
-            this.formActive = true;
-        },
+         setTimeout(function () {
+               document.querySelector(".list2").scrollTop = document.querySelector(".list2").scrollHeight;
+         }, 10);
+      },
 
-        changeName (index, event) {
-            this.newEmojies[index].translations["english"] = event.target.innerText;
-        },
+      removeEmoji (index) {
+         this.newEmojies.splice(index,1);      
+      },
+      
+      saveEmojies () {
+         let emojiesString = JSON.stringify(this.newEmojies, null,'\t');
+         localStorage.setItem('emojies', emojiesString);
 
-        changeTranslate (index, event) {
-            this.newEmojies[index].translations["russian"] = event.target.innerText;
-        },
+         this.emojiContainer = emojiesString.trim();
+         this.formActive = true;
+      },
 
-        copy () {
-            let emojiJSONText = this.$refs.emojiJSONText;
-            emojiJSONText.select();
-            document.execCommand("copy");
+      async saveEmojiesInFile () {
+         let emojiesString = JSON.stringify(this.newEmojies, null,'\t');
+         this.emojiContainer = emojiesString.trim();
 
-            this.formActive = !this.formActive;
-        },
+         await eel.save_emojies(this.emojiContainer)();
+         this.formActive = false;
+      },
 
-        setGroup (index, item, event) {
-            this.newEmojies[index].group.name = event.target.value;
-            this.newEmojies[index].group.id = this.groups[event.target.value].id;
-        }
+      changeName (index, event) {
+         this.newEmojies[index].translations["english"] = event.target.innerText;
+      },
+
+      changeTranslate (index, event) {
+         this.newEmojies[index].translations["russian"] = event.target.innerText;
+      },
+
+      copy () {
+         let emojiJSONText = this.$refs.emojiJSONText;
+         emojiJSONText.select();
+         document.execCommand("copy");
+
+         this.formActive = !this.formActive;
+      }
     },
 
     async created () {
-		await this.get_list();
+      await this.get_list();  
+      await this.get_app_list();
 
-        this.newEmojies = JSON.parse(localStorage.getItem('emojies'));
+      if ( !localStorage.hasOwnProperty('emojies') ) {
+         await this.get_app_list();
+
+         localStorage.emojies = "[]";
+      } else {
+         this.newEmojies = JSON.parse(localStorage.getItem('emojies'));
+      }
     }
 })
