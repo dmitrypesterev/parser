@@ -1,0 +1,209 @@
+body {
+    color: #454257;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+.container {
+    width: 90%;
+    margin: 120px auto;
+}
+
+.list,
+.list2 {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.list2 {
+    position: fixed;
+    right: 0;
+    top: 120px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 84vh;
+    padding-right: 10%;
+}
+
+.all_title,
+.all_title2 {
+    position: fixed;
+    top: 120px;
+    left: 5%;
+    z-index: 999999;
+    background: #fff;
+}
+
+.all_title2 {
+    left: 50%;
+}
+
+.emoji {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.emoji__name {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.emoji__left {
+    display: flex;
+    align-items: center;
+}
+
+.titles__left {
+    margin-left: 30px;
+}
+
+.titles__left span {
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.btn_save {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 68px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #454257;
+    background-color: #ffe072;
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+.emoji__id {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #ffe072;
+    color: #454257;
+    max-width: 160px;
+}
+
+.emoji__right {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+.emoji__remove {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    right: 20px;
+
+    width: 40px;
+    height: 40px;
+    border: 2px solid #45425721;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #454257;
+}
+
+.overlay__save {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9999998;
+}
+
+.window__save {
+    width: 600px;
+    max-height: 80vh;
+    padding: 40px 30px;
+    border-radius: 12px;
+    background-color: #fff;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #454257;
+
+    z-index: 9999999;
+}
+
+.window__save__btn-copy,
+.window__save__btn-cancel {
+    width: 160px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #ffe072;
+
+    cursor: pointer;
+    text-align: center;
+    line-height: 58px;
+    font-weight: bold;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.overlay__save__title {
+    font-size: 30px;
+}
+
+.window__save__btn-cancel {
+    border: 2px solid #45425721;
+    background: transparent;
+    margin-left: 16px;
+}
+
+.window__save__btn-cancel:hover,
+.window__save__btn-copy:hover {
+    opacity: 0.8;
+}
+
+.window__save__btn-cancel:active,
+.window__save__btn-copy:active {
+    transform: translateY(5px);
+}
+
+.btns {
+    display: flex;
+}
+
+.window__save__container {
+    display: block;
+    font-family: "Consolas";
+    line-height: 1.4;
+    margin: 30px 0;
+
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 250px;
+    resize: none;
+}
+
+.emoji-groups {
+    display: block;
+    margin-top: 10px;
+}

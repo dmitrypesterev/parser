@@ -1,0 +1,25 @@
+for (emg in emjs) {
+    newemjs.push({
+        "group": {
+            "id": 
+        },
+		"id": "dog_1f415",
+		"img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/dog_1f415.png",
+		"name": "a dog",
+		"translate": "Собака"  
+    })
+
+}  
+
+for (item in list) {
+    newlist.push({
+        "group": {},
+        "id": list[item]["id"],
+        "img": list[item]["img"],
+        "name": list[item]["name"].split(" ")[:-1],
+        "translations": {
+            "russian": list[item]["translate"],
+            "english": list[item]["name"]            
+        }
+    })
+}

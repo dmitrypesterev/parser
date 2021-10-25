@@ -1,0 +1,786 @@
+[
+    {
+        "group": "животные",
+        "id": "monkey_1f412",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/monkey_1f412.png",
+        "name": "a monkey",
+        "translate": "Обезьяна"
+    },
+    {
+        "group": "животные",
+        "id": "dog_1f415",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/dog_1f415.png",
+        "name": "a dog",
+        "translate": "Собака"
+    },
+    {
+        "group": "животные",
+        "id": "cat_1f408",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/cat_1f408.png",
+        "name": "a cat",
+        "translate": "Кот"
+    },
+    {
+        "group": "животные",
+        "id": "lion-face_1f981",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/lion-face_1f981.png",
+        "name": "a lion",
+        "translate": "Лев"
+    },
+    {
+        "group": "животные",
+        "id": "horse-face_1f434",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/horse-face_1f434.png",
+        "name": "a horse",
+        "translate": "Лошадь"
+    },
+    {
+        "group": "животные",
+        "id": "cow_1f404",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/cow_1f404.png",
+        "name": "a cow",
+        "translate": "Корова"
+    },
+    {
+        "group": "животные",
+        "id": "pig-face_1f437",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/pig-face_1f437.png",
+        "name": "a pig",
+        "translate": "Свинья"
+    },
+    {
+        "group": "животные",
+        "id": "elephant_1f418",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/elephant_1f418.png",
+        "name": "a elephant",
+        "translate": "Слон"
+    },
+    {
+        "group": "животные",
+        "id": "rooster_1f413",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/rooster_1f413.png",
+        "name": "a chicken",
+        "translate": "Курица"
+    },
+    {
+        "group": "природа",
+        "id": "deciduous-tree_1f333",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/deciduous-tree_1f333.png",
+        "name": "a three",
+        "translate": "Дерево"
+    },
+    {
+        "group": "природа",
+        "id": "palm-tree_1f334",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/palm-tree_1f334.png",
+        "name": "a palm",
+        "translate": "Пальма"
+    },
+    {
+        "group": "еда",
+        "id": "watermelon_1f349",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/watermelon_1f349.png",
+        "name": "a watermelon",
+        "translate": "Арбуз"
+    },
+    {
+        "group": "еда",
+        "id": "tangerine_1f34a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/tangerine_1f34a.png",
+        "name": "an orange",
+        "translate": "Мандарин"
+    },
+    {
+        "group": "еда",
+        "id": "lemon_1f34b",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/lemon_1f34b.png",
+        "name": "a lemon",
+        "translate": "Лимон"
+    },
+    {
+        "group": "еда",
+        "id": "banana_1f34c",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/banana_1f34c.png",
+        "name": "a banana",
+        "translate": "Банан"
+    },
+    {
+        "group": "еда",
+        "id": "green-apple_1f34f",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/green-apple_1f34f.png",
+        "name": "an apple ",
+        "translate": "Яблоко"
+    },
+    {
+        "group": "еда",
+        "id": "strawberry_1f353",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/strawberry_1f353.png",
+        "name": "a strawberry",
+        "translate": "Клубника"
+    },
+    {
+        "group": "еда",
+        "id": "kiwifruit_1f95d",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/kiwifruit_1f95d.png",
+        "name": "a kiwi",
+        "translate": "Киви"
+    },
+    {
+        "group": "еда",
+        "id": "carrot_1f955",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/carrot_1f955.png",
+        "name": "a carrot",
+        "translate": "Морковь"
+    },
+    {
+        "group": "еда",
+        "id": "bread_1f35e",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bread_1f35e.png",
+        "name": "a bread",
+        "translate": "Хлеб"
+    },
+    {
+        "group": "еда",
+        "id": "cheese-wedge_1f9c0",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/cheese-wedge_1f9c0.png",
+        "name": "a cheese",
+        "translate": "Сыр"
+    },
+    {
+        "group": "еда",
+        "id": "cut-of-meat_1f969",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/cut-of-meat_1f969.png",
+        "name": "a meat",
+        "translate": "Мясо"
+    },
+    {
+        "group": "еда",
+        "id": "hamburger_1f354",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/hamburger_1f354.png",
+        "name": "a hamburger",
+        "translate": "Гамбургер"
+    },
+    {
+        "group": "еда",
+        "id": "slice-of-pizza_1f355",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/slice-of-pizza_1f355.png",
+        "name": "a pizza",
+        "translate": "Пицца"
+    },
+    {
+        "group": "еда",
+        "id": "egg_1f95a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/egg_1f95a.png",
+        "name": "an egg",
+        "translate": "Яйцо"
+    },
+    {
+        "group": "еда",
+        "id": "cooking_1f373",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/cooking_1f373.png",
+        "name": "Cooking",
+        "translate": "Приготовление еды"
+    },
+    {
+        "group": "еда",
+        "id": "salt-shaker_1f9c2",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/salt-shaker_1f9c2.png",
+        "name": "salt",
+        "translate": "Соль"
+    },
+    {
+        "group": "еда",
+        "id": "cooked-rice_1f35a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/cooked-rice_1f35a.png",
+        "name": "rice",
+        "translate": "Рис"
+    },
+    {
+        "group": "еда",
+        "id": "soft-ice-cream_1f366",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/soft-ice-cream_1f366.png",
+        "name": "an Ice cream",
+        "translate": "Мороженое"
+    },
+    {
+        "group": "еда",
+        "id": "doughnut_1f369",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/doughnut_1f369.png",
+        "name": "a donut",
+        "translate": "Пончик"
+    },
+    {
+        "group": "еда",
+        "id": "glass-of-milk_1f95b",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/glass-of-milk_1f95b.png",
+        "name": "milk",
+        "translate": "Молоко"
+    },
+    {
+        "group": "еда",
+        "id": "hot-beverage_2615",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/hot-beverage_2615.png",
+        "name": "tea",
+        "translate": "Чай"
+    },
+    {
+        "group": "еда",
+        "id": "wine-glass_1f377",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/wine-glass_1f377.png",
+        "name": "wine",
+        "translate": "Вино"
+    },
+    {
+        "group": "еда",
+        "id": "beer-mug_1f37a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/beer-mug_1f37a.png",
+        "name": "beer",
+        "translate": "Пинта пива"
+    },
+    {
+        "group": "предметы",
+        "id": "spoon_1f944",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/spoon_1f944.png",
+        "name": "a spoon",
+        "translate": "Ложка"
+    },
+    {
+        "group": "предметы",
+        "id": "hocho_1f52a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/hocho_1f52a.png",
+        "name": "a knife",
+        "translate": "Нож"
+    },
+    {
+        "group": "природа",
+        "id": "snow-capped-mountain_1f3d4",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/snow-capped-mountain_1f3d4.png",
+        "name": "a mountain",
+        "translate": "Гора"
+    },
+    {
+        "group": "природа",
+        "id": "camping_1f3d5",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/camping_1f3d5.png",
+        "name": "сamp",
+        "translate": "Лагерь"
+    },
+    {
+        "group": "дом",
+        "id": "house-building_1f3e0",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/house-building_1f3e0.png",
+        "name": "a home",
+        "translate": "Дом"
+    },
+    {
+        "group": "город",
+        "id": "school_1f3eb",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/school_1f3eb.png",
+        "name": "a school",
+        "translate": "Школа"
+    },
+    {
+        "group": "город",
+        "id": "hotel_1f3e8",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/hotel_1f3e8.png",
+        "name": "a hotel",
+        "translate": "Отель"
+    },
+    {
+        "group": "город",
+        "id": "bank_1f3e6",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bank_1f3e6.png",
+        "name": "a bank",
+        "translate": "Банк"
+    },
+    {
+        "group": "город",
+        "id": "hospital_1f3e5",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/hospital_1f3e5.png",
+        "name": "a hospital",
+        "translate": "Госпиталь"
+    },
+    {
+        "group": "город",
+        "id": "church_26ea",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/church_26ea.png",
+        "name": "a church",
+        "translate": "Церковь"
+    },
+    {
+        "group": "поездки",
+        "id": "taxi_1f695",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/taxi_1f695.png",
+        "name": "a taxi",
+        "translate": "Такси"
+    },
+    {
+        "group": "поездки",
+        "id": "automobile_1f697",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/automobile_1f697.png",
+        "name": "a car",
+        "translate": "Машина"
+    },
+    {
+        "group": "поездки",
+        "id": "bus_1f68c",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bus_1f68c.png",
+        "name": "a bus",
+        "translate": "Автобус"
+    },
+    {
+        "group": "поездки",
+        "id": "mountain-railway_1f69e",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/mountain-railway_1f69e.png",
+        "name": "a train",
+        "translate": "Поезд"
+    },
+    {
+        "group": "поездки",
+        "id": "bicycle_1f6b2",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bicycle_1f6b2.png",
+        "name": "a bicycle",
+        "translate": "Велосипед"
+    },
+    {
+        "group": "поездки",
+        "id": "racing-motorcycle_1f3cd",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/racing-motorcycle_1f3cd.png",
+        "name": "a motorcycle",
+        "translate": "Мотоцикл"
+    },
+    {
+        "group": "поездки",
+        "id": "canoe_1f6f6",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/canoe_1f6f6.png",
+        "name": "a boat",
+        "translate": "Лодка"
+    },
+    {
+        "group": "поездки",
+        "id": "small-airplane_1f6e9",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/small-airplane_1f6e9.png",
+        "name": "a plane",
+        "translate": "Самолет"
+    },
+    {
+        "group": "дом",
+        "id": "watch_231a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/watch_231a.png",
+        "name": "a clock",
+        "translate": "Часы"
+    },
+    {
+        "group": "спорт",
+        "id": "soccer-ball_26bd",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/soccer-ball_26bd.png",
+        "name": "football",
+        "translate": "Футбол"
+    },
+    {
+        "group": "спорт",
+        "id": "bowling_1f3b3",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bowling_1f3b3.png",
+        "name": "bowling",
+        "translate": "Боулинг"
+    },
+    {
+        "group": "спорт",
+        "id": "ice-hockey-stick-and-puck_1f3d2",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/ice-hockey-stick-and-puck_1f3d2.png",
+        "name": "hockey",
+        "translate": "Хоккей"
+    },
+    {
+        "group": "спорт",
+        "id": "boxing-glove_1f94a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/boxing-glove_1f94a.png",
+        "name": "boxing",
+        "translate": "Бокс"
+    },
+    {
+        "group": "предметы",
+        "id": "eyeglasses_1f453",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/eyeglasses_1f453.png",
+        "name": "glasses",
+        "translate": "Очки"
+    },
+    {
+        "group": "одежда",
+        "id": "necktie_1f454",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/necktie_1f454.png",
+        "name": "a tie",
+        "translate": "Галстук"
+    },
+    {
+        "group": "одежда",
+        "id": "t-shirt_1f455",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/t-shirt_1f455.png",
+        "name": "t-shirt",
+        "translate": "Футболка"
+    },
+    {
+        "group": "одежда",
+        "id": "jeans_1f456",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/jeans_1f456.png",
+        "name": "jeans",
+        "translate": "Джинсы"
+    },
+    {
+        "group": "одежда",
+        "id": "coat_1f9e5",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/coat_1f9e5.png",
+        "name": "a coat",
+        "translate": "Пальто"
+    },
+    {
+        "group": "одежда",
+        "id": "socks_1f9e6",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/socks_1f9e6.png",
+        "name": "socks",
+        "translate": "Носки"
+    },
+    {
+        "group": "одежда",
+        "id": "dress_1f457",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/dress_1f457.png",
+        "name": "a dress",
+        "translate": "Платье"
+    },
+    {
+        "group": "предметы",
+        "id": "handbag_1f45c",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/handbag_1f45c.png",
+        "name": "a bag",
+        "translate": "Сумка"
+    },
+    {
+        "group": "предметы",
+        "id": "school-satchel_1f392",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/school-satchel_1f392.png",
+        "name": "a backpack",
+        "translate": "Рюкзак"
+    },
+    {
+        "group": "одежда",
+        "id": "mans-shoe_1f45e",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/mans-shoe_1f45e.png",
+        "name": "footwear",
+        "translate": "Обувь"
+    },
+    {
+        "group": "одежда",
+        "id": "athletic-shoe_1f45f",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/athletic-shoe_1f45f.png",
+        "name": "sneakers",
+        "translate": "Кроссовки"
+    },
+    {
+        "group": "одежда",
+        "id": "high-heeled-shoe_1f460",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/high-heeled-shoe_1f460.png",
+        "name": "shoes",
+        "translate": "Туфли"
+    },
+    {
+        "group": "одежда",
+        "id": "billed-cap_1f9e2",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/billed-cap_1f9e2.png",
+        "name": "a cap",
+        "translate": "Кепка"
+    },
+    {
+        "group": "предметы",
+        "id": "headphone_1f3a7",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/headphone_1f3a7.png",
+        "name": "headphones",
+        "translate": "Наушники"
+    },
+    {
+        "group": "предметы",
+        "id": "camera_1f4f7",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/camera_1f4f7.png",
+        "name": "a camera",
+        "translate": "Фотоаппарат"
+    },
+    {
+        "group": "дом",
+        "id": "television_1f4fa",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/television_1f4fa.png",
+        "name": "TV",
+        "translate": "Телевизор"
+    },
+    {
+        "group": "предметы",
+        "id": "orange-book_1f4d9",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/orange-book_1f4d9.png",
+        "name": "a book",
+        "translate": "Книга"
+    },
+    {
+        "group": "предметы",
+        "id": "newspaper_1f4f0",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/newspaper_1f4f0.png",
+        "name": "a newspaper",
+        "translate": "Газета"
+    },
+    {
+        "group": "предметы",
+        "id": "pencil_270f",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/pencil_270f.png",
+        "name": "a pencil",
+        "translate": "Карандаш"
+    },
+    {
+        "group": "предметы",
+        "id": "calendar_1f4c5",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/calendar_1f4c5.png",
+        "name": "a calendar",
+        "translate": "Календарь"
+    },
+    {
+        "group": "медицина",
+        "id": "pill_1f48a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/pill_1f48a.png",
+        "name": "pill",
+        "translate": "Пилюля"
+    },
+    {
+        "group": "дом",
+        "id": "door_1f6aa",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/door_1f6aa.png",
+        "name": "a door",
+        "translate": "Дверь"
+    },
+    {
+        "group": "дом",
+        "id": "bed_1f6cf",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bed_1f6cf.png",
+        "name": "a bed",
+        "translate": "Кровать"
+    },
+    {
+        "group": "дом",
+        "id": "couch-and-lamp_1f6cb",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/couch-and-lamp_1f6cb.png",
+        "name": "a sofa",
+        "translate": "Диван "
+    },
+    {
+        "group": "дом",
+        "id": "bathtub_1f6c1",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bathtub_1f6c1.png",
+        "name": "bathroom",
+        "translate": "Ванна с пеной"
+    },
+    {
+        "group": "семья",
+        "id": "family-man-woman-girl-boy_1f468-200d-1f469-200d-1f467-200d-1f466",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/family-man-woman-girl-boy_1f468-200d-1f469-200d-1f467-200d-1f466.png",
+        "name": "Family",
+        "translate": "Семья"
+    },
+    {
+        "group": "глаголы",
+        "id": "swimmer_1f3ca",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/swimmer_1f3ca.png",
+        "name": "to swim",
+        "translate": "Плавать"
+    },
+    {
+        "group": "глаголы",
+        "id": "dancer_1f483",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/dancer_1f483.png",
+        "name": "to dance",
+        "translate": "Танцевать"
+    },
+    {
+        "group": "глаголы",
+        "id": "runner_1f3c3",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/runner_1f3c3.png",
+        "name": "to run",
+        "translate": "Бежать"
+    },
+    {
+        "group": "семья",
+        "id": "bride-with-veil_1f470",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bride-with-veil_1f470.png",
+        "name": "a bride",
+        "translate": "Невеста"
+    },
+    {
+        "group": "семья",
+        "id": "man-in-tuxedo_1f935",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/man-in-tuxedo_1f935.png",
+        "name": "a groom",
+        "translate": "Жених"
+    },
+    {
+        "group": "профессии",
+        "id": "male-police-officer_1f46e-200d-2642-fe0f",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/male-police-officer_1f46e-200d-2642-fe0f.png",
+        "name": "a policeman",
+        "translate": "Полицейский"
+    },
+    {
+        "group": "профессии",
+        "id": "male-artist_1f468-200d-1f3a8",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/male-artist_1f468-200d-1f3a8.png",
+        "name": "an artist",
+        "translate": "Художник"
+    },
+    {
+        "group": "профессии",
+        "id": "female-office-worker_1f469-200d-1f4bc",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/female-office-worker_1f469-200d-1f4bc.png",
+        "name": "a lawyer",
+        "translate": "Юрист"
+    },
+    {
+        "group": "профессии",
+        "id": "female-cook_1f469-200d-1f373",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/female-cook_1f469-200d-1f373.png",
+        "name": "a cook",
+        "translate": "Повар"
+    },
+    {
+        "group": "профессии",
+        "id": "male-farmer_1f468-200d-1f33e",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/male-farmer_1f468-200d-1f33e.png",
+        "name": "a farmer",
+        "translate": "Фермер"
+    },
+    {
+        "group": "профессии",
+        "id": "male-judge_1f468-200d-2696-fe0f",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/male-judge_1f468-200d-2696-fe0f.png",
+        "name": "a judge",
+        "translate": "Cудья"
+    },
+    {
+        "group": "профессии",
+        "id": "female-teacher_1f469-200d-1f3eb",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/female-teacher_1f469-200d-1f3eb.png",
+        "name": "a teacher",
+        "translate": "Учитель"
+    },
+    {
+        "group": "профессии",
+        "id": "male-student_1f468-200d-1f393",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/male-student_1f468-200d-1f393.png",
+        "name": "a student",
+        "translate": "Студент"
+    },
+    {
+        "group": "профессии",
+        "id": "female-health-worker_1f469-200d-2695-fe0f",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/female-health-worker_1f469-200d-2695-fe0f.png",
+        "name": "a doctor",
+        "translate": "Врач"
+    },
+    {
+        "group": "семья",
+        "id": "older-woman_1f475",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/older-woman_1f475.png",
+        "name": "a grandmother",
+        "translate": "Бабушка"
+    },
+    {
+        "group": "семья",
+        "id": "older-man_1f474",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/older-man_1f474.png",
+        "name": "a grandpa",
+        "translate": "Дедушка"
+    },
+    {
+        "group": "Группа",
+        "id": "woman-white-haired_1f469-200d-1f9b3",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/woman-white-haired_1f469-200d-1f9b3.png",
+        "name": "a female",
+        "translate": "Женщина "
+    },
+    {
+        "group": "Основы",
+        "id": "bearded-person_1f9d4",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/bearded-person_1f9d4.png",
+        "name": "a man",
+        "translate": "Мужчина"
+    },
+    {
+        "group": "Основы",
+        "id": "boy_1f466",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/boy_1f466.png",
+        "name": "a boy",
+        "translate": "Мальчик"
+    },
+    {
+        "group": "Основы",
+        "id": "girl_1f467",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/girl_1f467.png",
+        "name": "a girl",
+        "translate": "Девочка"
+    },
+    {
+        "group": "Основы",
+        "id": "baby_1f476",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/baby_1f476.png",
+        "name": "a baby",
+        "translate": "Младенец"
+    },
+    {
+        "group": "тело",
+        "id": "eyes_1f440",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/eyes_1f440.png",
+        "name": "eyes",
+        "translate": "Глаза"
+    },
+    {
+        "group": "тело",
+        "id": "tongue_1f445",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/tongue_1f445.png",
+        "name": "a tongue",
+        "translate": "Язык"
+    },
+    {
+        "group": "тело",
+        "id": "brain_1f9e0",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/brain_1f9e0.png",
+        "name": "a brain",
+        "translate": "Мозг"
+    },
+    {
+        "group": "тело",
+        "id": "ear_1f442",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/ear_1f442.png",
+        "name": "an ear",
+        "translate": "Ухо"
+    },
+    {
+        "group": "тело",
+        "id": "nose_1f443",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/nose_1f443.png",
+        "name": "a nose",
+        "translate": "Нос"
+    },
+    {
+        "group": "тело",
+        "id": "leg_1f9b5",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/leg_1f9b5.png",
+        "name": "a leg",
+        "translate": "Нога"
+    },
+    {
+        "group": "тело",
+        "id": "flexed-biceps_1f4aa",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/flexed-biceps_1f4aa.png",
+        "name": "an arm",
+        "translate": "Рука"
+    },
+    {
+        "group": "тело",
+        "id": "raised-back-of-hand_1f91a",
+        "img": "https://hola-korean-assets.s3.us-east-2.amazonaws.com/vocabulary/raised-back-of-hand_1f91a.png",
+        "name": "a hand",
+        "translate": "Рука"
+    }
+]

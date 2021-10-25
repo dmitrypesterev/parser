@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Parser</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="font_awesome/css/all.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+
+	<!-- JS -->
+	<script src="vue.js"></script>
+	<script src="/eel.js"></script>
+</head>
+<body>
+	<div id="app">
+		<div class="container">
+			<div class="btn_save" @click="saveEmojies"><em class="fas fa-save"></em></div>
+
+			<div class="overlay__save" v-if="formActive"></div>
+			<div class="window__save" v-if="formActive">
+				<h3 class="overlay__save__title">Сохранить JSON</h3>
+				<br>
+				<textarea class="window__save__container" ref="emojiJSONText">
+					{{ emojiContainer }}
+				</textarea>
+
+				<div class="btns">
+					<div class="window__save__btn-copy" @click="copy">Копировать <em class="fas fa-copy"> </em></div>
+					<div class="window__save__btn-cancel" @click="formActive = false">Отмена</div>
+				</div>
+			</div>
+
+			<div class="list">
+				<h2 class="all_title">Все Emoji</h2>
+				<br>
+				<div class="emoji" 
+						v-for="(emoji, index) in list" 
+						:key="index"
+						@click="addEmoji(index)">
+					<div class="emoji__left">
+						<img :src="emoji.img">
+						<div class="titles__left">
+							<span>Имя:</span>
+							<h4 class="emoji__name">{{emoji.translations.english}}</h4>
+							<span>Перевод:</span>
+							<h4 class="emoji__name">{{emoji.translations.russian}}</h4>
+						</div>
+					</div>
+					
+					<div class="emoji__right">
+						<span class="emoji__id">{{emoji.id}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="list2">
+				<h2 class="all_title2">Выбранные Emoji</h2>
+				<br>
+				<div class="emoji" 
+						v-for="(item, index) in newEmojies" 
+						:key="index">
+						
+					<div class="emoji__left">
+						<img :src="item.img">
+						<div class="titles__left">
+							<span>Имя:</span>
+							<h4 class="emoji__name" contenteditable
+						@blur="changeName(index, $event)">{{item.translations.english}}</h4>
+							<span>Перевод:</span>
+							<h4 class="emoji__name" contenteditable
+						@blur="changeTranslate(index, $event)">{{item.translations.russian}}</h4>
+						</div>
+
+						
+					</div>
+					
+					<div class="emoji__right">
+						<span class="emoji__id">{{item.id}}</span>
+						<select class="emoji-groups" @change="setGroup(index, item.group.name, $event)" v-model="item.group.name">
+							<option selected>Группа</option>
+							<option v-for="group in groups" v-bind:value="group.name" >{{ group.name }}</option>
+						</select>
+					</div>	
+
+					<div class="emoji__remove" @click="removeEmoji(index)"><em class="far fa-times"></em></div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<script src="js/main.js" defer></script>
+</body>
+</html>
